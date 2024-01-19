@@ -30,10 +30,10 @@ const ToTopButton = () => {
 
   return (
     <button
-      className={`fixed bottom-[15px] right-[15px]  ${isVisible ? 'block' : 'hidden'} z-[10] shadow-sm p-[10px] rounded-full cursor-pointer bg-muted-foreground`}
+      className={`fixed bottom-[15px] right-[15px]  ${isVisible ? 'block' : 'hidden'} z-[10] shadow-sm p-[6px] cursor-pointer bg-muted-foreground`}
       onClick={scrollToTop}
     >
-      <ArrowUp />
+      <ArrowUp className='text-white' />
     </button>
   );
 };
