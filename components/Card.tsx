@@ -8,13 +8,13 @@ const Card = () => {
         <Image src={'/card-img.svg'} width={500} height={500} alt='Card img' className='w-full' />
 
         <div className='px-[8px] py-[7px] border-t border-accent-foreground'>
-            <h4 className='text-[16px] leading-0'>HTML SCSS Python Flask</h4>
+            <h4 className='text-[16px] leading-0 text-muted-foreground'>HTML SCSS Python Flask</h4>
         </div>
 
         <div className='px-[16px] py-[18px] border-t border-accent-foreground'>
-            <h2 className='text-[20px] sm:text-[24px]'>ChertNodes</h2>
+            <h2 className='text-[20px]  sm:text-[24px]'>ChertNodes</h2>
 
-            <p className='text-[16px] leading-0 mt-[16px] text-accent-muted'>Minecraft servers hosting </p>
+            <p className='text-[16px] text-muted-foreground leading-0 mt-[16px] text-accent-muted'>Minecraft servers hosting </p>
 
             <div className='mt-[16px] flex justify-start flex-wrap items-center gap-3'>
                 <Button className='py-[8px] text-[16px]'>Preview ~</Button>

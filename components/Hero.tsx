@@ -9,7 +9,7 @@ const Hero = () => {
             <div className='w-full col-span-4 md:pt-[60px]'>
                 <h1 className='text-[32px] max-w-[537px] w-full font-semibold'>Elias is a <span className='text-primary'>web designer</span> and <span className='text-primary'>front-end developer</span></h1>
 
-                <p className='text-[16px] mt-[25px] sm:mt-[32px] max-w-[537px] w-full'>He crafts responsive websites where technologies meet creativity</p>
+                <p className='text-[16px] mt-[25px] text-muted-foreground sm:mt-[32px] max-w-[537px] w-full'>He crafts responsive websites where technologies meet creativity</p>
 
                 <Button className='mt-[24px] hidden sm:flex'>Contact me!</Button>
             </div>

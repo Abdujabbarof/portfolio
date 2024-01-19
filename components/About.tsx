@@ -4,7 +4,7 @@ import Comments from './Comments'
 
 const About = () => {
   return (
-    <section className='w-full px-[3.3%] md:px-[40px] py-[74px] flex flex-col gap-y-[30px] md:gap-y-[20px]'>
+    <section id='about-me' className='w-full px-[3.3%] md:px-[40px] py-[74px] flex flex-col gap-y-[30px] md:gap-y-[20px]'>
         <div className="container flex justify-between w-full items-center">
             <div className="max-w-[650px] w-full flex justify-start items-center gap-[16px]">
                 <h1 className='flex text-[24px] md:text-[32px]'><span className='text-primary'>#</span> about_me</h1>

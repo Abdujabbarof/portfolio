@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import Navbar from '@/components/Navbar'
 import SideLinks from '@/components/SideLinks'
 import FollowCursorCircle from '@/components/Cursor'
+import ToTopButton from '@/components/ToTop'
 
 const inter = Fira_Code({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
             {/* <FollowCursorCircle /> */}
             <Navbar />
             <SideLinks />
+            <ToTopButton />
             {children}
           </ThemeProvider>
         </body>

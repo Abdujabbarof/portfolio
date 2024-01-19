@@ -9,15 +9,15 @@ export const navLinks = [
         title: "Home"
     },
     {
-        path: "/works",
-        title: "Works"
+        path: "#projects",
+        title: "Projects"
     },
     {
-        path: "/about-me",
+        path: "#about-me",
         title: "About-me"
     },
     {
-        path: "/contacts",
+        path: "#contacts",
         title: "Contacts"
     },
 ]
