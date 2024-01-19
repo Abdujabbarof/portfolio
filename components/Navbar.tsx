@@ -7,7 +7,7 @@ import Sidebar from './Sidebar'
 
 const Navbar = () => {
   return (
-    <header className='fixed z-10 left-0 top-0 w-full bg-background px-[3.3%] py-4 sm:py-7'>
+    <header className='z-10 left-0 top-0 w-full bg-background px-[3.3%] md:px-[40px] py-4 sm:py-7'>
         <div className='container flex flex-row-reverse sm:flex-row justify-between items-center'>
             <Link href={'/'}>
                 <h1 className='font-bold text-lg text-[20px] md:text-[24px]'>_abdulloh_dev</h1>

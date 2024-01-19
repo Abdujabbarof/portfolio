@@ -121,6 +121,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
 }
 
@@ -129,4 +130,8 @@
   width: 100%;
   margin: 0 auto;
   padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

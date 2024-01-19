@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const Skills = () => {
   return (
-    <section className='w-full px-[3.3%] pt-[74px] flex flex-col gap-y-[30px] md:gap-y-[48px]'>
+    <section className='w-full px-[3.3%] md:px-[40px] pt-[74px] flex flex-col gap-y-[30px] md:gap-y-[48px]'>
         <div className="container flex justify-between items-center">
             <div className="max-w-[450px] w-full flex justify-start items-center gap-[16px]">
                 <h1 className='flex text-[24px] md:text-[32px]'><span className='text-primary'>#</span> skills</h1>
-                <div className='w-full border border-accent-foreground'></div>
+                <div className='w-full border border-primary'></div>
             </div>
         </div>
 

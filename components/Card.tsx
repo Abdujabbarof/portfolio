@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 const Card = () => {
   return (
-    <div className='w-[100%] border border-accent-foreground'>
+    <div className='w-[100%] max-w-[440px] border border-accent-foreground'>
         <Image src={'/card-img.svg'} width={500} height={500} alt='Card img' className='w-full' />
 
         <div className='px-[8px] py-[7px] border-t border-accent-foreground'>

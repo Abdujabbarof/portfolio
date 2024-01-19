@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 import Navbar from '@/components/Navbar'
 import SideLinks from '@/components/SideLinks'
+import FollowCursorCircle from '@/components/Cursor'
 
 const inter = Fira_Code({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="light"
           >
+            {/* <FollowCursorCircle /> */}
             <Navbar />
             <SideLinks />
             {children}

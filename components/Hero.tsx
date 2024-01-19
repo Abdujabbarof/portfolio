@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='w-full pt-[100px] sm:pt-[130px] md:pt-[180px] px-[3.3%]'>
+    <section className='w-full pt-[34px] md:pt-[84px] px-[3.3%] md:px-[40px]'>
         <div className="container grid grid-cols-1 md:grid-cols-7">
             <div className='w-full col-span-4 md:pt-[60px]'>
                 <h1 className='text-[32px] max-w-[537px] w-full font-semibold'>Elias is a <span className='text-primary'>web designer</span> and <span className='text-primary'>front-end developer</span></h1>

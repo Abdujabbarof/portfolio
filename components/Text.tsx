@@ -3,7 +3,7 @@ import React from 'react'
 
 const Text = () => {
   return (
-    <section className='relative w-[100%] px-[3.3%] pt-[112px]'>
+    <section className='relative w-[100%] px-[3.3%] md:px-[40px] pt-[112px]'>
         <div className='hidden lg:inline-block border border-accent-foreground w-[91px] h-[91px] absolute right-[3%] top-[70%] translate-x-[50%] translate-y-[-50%]'></div>
         <div className='max-w-[720px] w-[100%] mx-auto flex flex-col items-end'>
             <div className='w-[100%] p-[24px] sm:p-[32px] border border-accent-foreground relative'>
@@ -15,6 +15,7 @@ const Text = () => {
                 </div>
                 <h2 className='text-[16px] md:text-[24px]'>With great power comes great electricity bill</h2>
             </div>
+            
             <div className='border border-t-0 p-[16px] border-accent-foreground'>
                 <h2 className='text-[16px]'>_Dr. Abdujabbarof</h2>
             </div>
