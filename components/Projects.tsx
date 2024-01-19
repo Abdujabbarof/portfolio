@@ -35,9 +35,7 @@ const Projects = () => {
   return (
     <section className='w-full px-[3.3%] md:px-[40px] pt-[74px] flex flex-col gap-y-[30px] md:gap-y-[48px] relative'>
         <div className='hidden lg:inline-block border border-accent-foreground w-[91px] h-[155px] absolute right-[0%] top-[50%] translate-x-[65%] translate-y-[50%]'></div>
-
         <Image src={'/Dots.svg'} className='h-[100px] hidden lg:inline-block w-full absolute left-[1%] top-[20%] translate-x-[-50%] translate-y-[-50%]' width={500} height={500} alt='Dots' />
-
 
         <div className="container flex justify-between items-center">
             <div className="max-w-[700px] w-full flex justify-start items-center gap-[16px]">
